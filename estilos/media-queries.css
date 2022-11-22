@@ -20,7 +20,12 @@
         order: 3;
         margin-top: 10px;
 
-        margin-left: -20px;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .navigation-wrapper > .right-column > .address-wrapper {
+       margin-left: -80px;
     }
 
     .links-wrapper {
@@ -37,11 +42,17 @@
 
     .hero-section {
         padding: 30px 8px;
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
 
     .hero-section > .top-heading {
-        width: 340px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .hero-section > .bottom-heading {
+        /*width: 300px;*/
+        text-align: center;
     }
 
     .acerca-section {
