@@ -1,4 +1,4 @@
-@media (max-width: 615px) {
+@media (max-width: 615px) and (orientation: portrait) {
     body, html {
         width: 100%;
         overflow-x: hidden;
