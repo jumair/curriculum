@@ -1,4 +1,9 @@
 @media (max-width: 615px) {
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .navigation-wrapper {
         flex-direction: column;
         height: 100%;
