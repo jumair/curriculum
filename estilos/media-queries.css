@@ -68,6 +68,10 @@
         margin-left: 10px;
     }
 
+    .acerca-section > .parrafo h2 {
+        font-size: 1.2em;
+    }
+
     .features-section {
         height: 100%;
     }
