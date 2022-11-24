@@ -1,4 +1,4 @@
-@media (max-width: 615px) and (orientation: portrait) {
+@media (max-width: 615px) and ((orientation: portrait) or (orientation: landscape)) {
     body, html {
         width: 100%;
         overflow-x: hidden;
@@ -107,3 +107,9 @@
     }
 
 }
+
+/*@media (max-width: 615px) and (orientation: landscape) {
+    body {
+        display: none;
+    }
+}*/
