@@ -1,0 +1,110 @@
+@media (max-width: 1000px) and ((orientation: portrait) or (orientation: landscape)) {
+    body, html {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .navigation-wrapper {
+        flex-direction: column;
+        height: 100%;
+        margin-top: -30px;
+    }
+
+    .navigation-wrapper > .left-column {
+        order: 2;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .navigation-wrapper > .center-column {
+        order: 1;
+        width: 100%;
+    }
+
+    .navigation-wrapper > .right-column {
+        order: 3;
+        margin-top: 10px;
+
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+    }
+
+    .navigation-wrapper > .right-column > .address-wrapper {
+       margin-left: -80px;
+    }
+
+    .links-wrapper {
+        flex-direction: column;
+        margin-top: -20px;
+    }
+
+    .links-wrapper > .nav-link {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 1.2em;
+        width: 100%;
+    }
+
+    .hero-section {
+        padding: 30px 8px;
+        font-size: 0.8em;
+    }
+
+    .hero-section > .top-heading {
+        width: 300px;
+        text-align: center;
+    }
+
+    .hero-section > .bottom-heading {
+        /*width: 300px;*/
+        text-align: center;
+    }
+
+    .acerca-section {
+        display: flex;
+        flex-direction: column;
+        font-size: 0.9em;
+        height: 100%;
+        margin-left: 20px;
+    }
+
+    .acerca-section > .parrafo p {
+        /*width: 320px;*/
+        width: 80%;
+        margin-left: 10px;
+    }
+
+    .acerca-section > .parrafo h2 {
+        font-size: 1.2em;
+    }
+
+    .features-section {
+        height: 100%;
+    }
+
+    .features-section > .columns-wrapper {
+        width: 100%;
+        flex-direction: column; 
+    }
+
+    .features-section > .columns-wrapper > .column {
+        padding: 10px;
+    }
+
+    .footer {
+        height: 100%;
+    }
+
+    .footer > .footer-up {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer > .footer-up > .footer-up-right > .footer-name {
+        justify-content: center;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+}
