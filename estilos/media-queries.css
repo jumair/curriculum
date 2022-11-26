@@ -69,7 +69,8 @@
     }
 
     .acerca-section > .parrafo p {
-        width: 320px;
+        /*width: 320px;*/
+        width: 80%;
         margin-left: 10px;
     }
 
