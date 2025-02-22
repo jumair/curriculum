@@ -1,0 +1,45 @@
+{
+    "numero":100,
+    "actualizado":"30/03/2025",
+    "recetas":[
+        {
+            "titulo":"garbanzos con pisto",
+            "descripcion":"receta de garbanzos con pisto",
+            "preparacion":["poner garbanzos en remojo", "preparar pisto", "mezclar todo"],
+            "tipo":"primero",
+            "ingredientes":[
+                {"nombre":"garbanzos", "cantidad":500,"unidad":"gr"},
+                {"nombre":"calabacin", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"pimiento verde", "cantidad":150,"unidad":"gr"},
+                {"nombre":"cebolla", "cantidad":300,"unidad":"gr"}
+            ],
+            "foto":"aqui"
+        },
+        {
+            "titulo":"lentejas",
+            "descripcion":"receta de lentejas",
+            "preparacion":["poner lentejas en remojo", "preparar receta"],
+            "tipo":"primero",
+            "ingredientes":[
+                {"nombre":"lentejas", "cantidad":200,"unidad":"gr"},
+                {"nombre":"tomate pera", "cantidad":2,"unidad":"unidad"},
+                {"nombre":"pimiento verde", "cantidad":150,"unidad":"gr"},
+                {"nombre":"cebolla", "cantidad":150,"unidad":"gr"}
+            ],
+            "foto":"aqui"
+        },
+        {
+            "titulo":"arroz con pisto",
+            "descripcion":"receta de arroz con pisto",
+            "preparacion":["preparar arroz", "preparar pisto", "mezclar todo"],
+            "tipo":"primero",
+            "ingredientes":[
+                {"nombre":"arroz", "cantidad":300,"unidad":"gr"},
+                {"nombre":"calabacin", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"pimiento verde", "cantidad":150,"unidad":"gr"},
+                {"nombre":"cebolla", "cantidad":300,"unidad":"gr"}
+            ],
+            "foto":"aqui"
+        }
+    ]
+}
