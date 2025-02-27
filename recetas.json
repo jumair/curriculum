@@ -1,0 +1,68 @@
+{
+    "numero":100,
+    "actualizado":"30/03/2025",
+    "recetas":[
+        {
+            "titulo":"garbanzos con pisto",
+            "descripcion":"receta de garbanzos con pisto",
+            "preparacion":["poner garbanzos en remojo", "preparar pisto", "mezclar todo"],
+            "tipo":"primero",
+            "ingredientes":[
+                {"nombre":"garbanzos", "cantidad":500,"unidad":"gr"},
+                {"nombre":"calabacin", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"pimiento verde", "cantidad":150,"unidad":"gr"},
+                {"nombre":"cebolla", "cantidad":300,"unidad":"gr"}
+            ],
+            "foto":"garbanzos_con_pisto.jpg"
+        },
+        {
+            "titulo":"lentejas",
+            "descripcion":"receta de lentejas",
+            "preparacion":["poner lentejas en remojo", "preparar receta"],
+            "tipo":"primero",
+            "ingredientes":[
+                {"nombre":"lentejas", "cantidad":200,"unidad":"gr"},
+                {"nombre":"tomate pera", "cantidad":2,"unidad":"unidad"},
+                {"nombre":"pimiento verde", "cantidad":150,"unidad":"gr"},
+                {"nombre":"cebolla", "cantidad":150,"unidad":"gr"}
+            ],
+            "foto":"lentejas.jpg"
+        },
+        {
+            "titulo":"arroz con pisto",
+            "descripcion":"receta de arroz con pisto",
+            "preparacion":["preparar arroz", "preparar pisto", "mezclar todo"],
+            "tipo":"primero",
+            "ingredientes":[
+                {"nombre":"arroz", "cantidad":300,"unidad":"gr"},
+                {"nombre":"calabacin", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"pimiento verde", "cantidad":150,"unidad":"gr"},
+                {"nombre":"cebolla", "cantidad":300,"unidad":"gr"}
+            ],
+            "foto":"arroz_con_pisto.jpg"
+        },
+        {
+            "titulo":"filete con patatas",
+            "descripcion":"receta de filete con patatas",
+            "preparacion":["freir el filete", "freir las patatas"],
+            "tipo":"segundo",
+            "ingredientes":[
+                {"nombre":"filete", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"patatas", "cantidad":1,"unidad":"unidad"}
+            ],
+            "foto":""
+        },
+        {
+            "titulo":"arroz con leche",
+            "descripcion":"receta de arroz con leche",
+            "preparacion":["hervir la leche", "echar el arroz", "remover durante 20 minutos"],
+            "tipo":"postre",
+            "ingredientes":[
+                {"nombre":"arroz", "cantidad":150,"unidad":"gr"},
+                {"nombre":"leche", "cantidad":250,"unidad":"gr"},
+                {"nombre":"canela en rama", "cantidad":1,"unidad":"unidad"}
+            ],
+            "foto":""
+        }
+    ]
+}
