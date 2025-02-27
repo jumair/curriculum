@@ -6,7 +6,7 @@
             "titulo":"garbanzos con pisto",
             "descripcion":"receta de garbanzos con pisto",
             "preparacion":["poner garbanzos en remojo", "preparar pisto", "mezclar todo"],
-            "tipo":"primero",
+            "tipo":"Primeros",
             "ingredientes":[
                 {"nombre":"garbanzos", "cantidad":500,"unidad":"gr"},
                 {"nombre":"calabacin", "cantidad":1,"unidad":"unidad"},
@@ -19,7 +19,7 @@
             "titulo":"lentejas",
             "descripcion":"receta de lentejas",
             "preparacion":["poner lentejas en remojo", "preparar receta"],
-            "tipo":"primero",
+            "tipo":"Primeros",
             "ingredientes":[
                 {"nombre":"lentejas", "cantidad":200,"unidad":"gr"},
                 {"nombre":"tomate pera", "cantidad":2,"unidad":"unidad"},
@@ -32,7 +32,7 @@
             "titulo":"arroz con pisto",
             "descripcion":"receta de arroz con pisto",
             "preparacion":["preparar arroz", "preparar pisto", "mezclar todo"],
-            "tipo":"primero",
+            "tipo":"Primeros",
             "ingredientes":[
                 {"nombre":"arroz", "cantidad":300,"unidad":"gr"},
                 {"nombre":"calabacin", "cantidad":1,"unidad":"unidad"},
@@ -45,7 +45,7 @@
             "titulo":"filete con patatas",
             "descripcion":"receta de filete con patatas",
             "preparacion":["freir el filete", "freir las patatas"],
-            "tipo":"segundo",
+            "tipo":"Segundos",
             "ingredientes":[
                 {"nombre":"filete", "cantidad":1,"unidad":"unidad"},
                 {"nombre":"patatas", "cantidad":1,"unidad":"unidad"}
@@ -56,7 +56,7 @@
             "titulo":"arroz con leche",
             "descripcion":"receta de arroz con leche",
             "preparacion":["hervir la leche", "echar el arroz", "remover durante 20 minutos"],
-            "tipo":"postre",
+            "tipo":"Postres",
             "ingredientes":[
                 {"nombre":"arroz", "cantidad":150,"unidad":"gr"},
                 {"nombre":"leche", "cantidad":250,"unidad":"gr"},
