@@ -50,7 +50,7 @@
                 {"nombre":"filete", "cantidad":1,"unidad":"unidad"},
                 {"nombre":"patatas", "cantidad":1,"unidad":"unidad"}
             ],
-            "foto":""
+            "foto":"filete_con_patatas.jpg"
         },
         {
             "titulo":"arroz con leche",
@@ -62,7 +62,7 @@
                 {"nombre":"leche", "cantidad":250,"unidad":"gr"},
                 {"nombre":"canela en rama", "cantidad":1,"unidad":"unidad"}
             ],
-            "foto":""
+            "foto":"arroz_con_leche.jpg"
         }
     ]
 }
