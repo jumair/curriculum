@@ -1,10 +1,10 @@
 {
     "numero":100,
-    "actualizado":"30/03/2025",
+    "actualizado":"26/05/2025",
     "recetas":[
         {
             "titulo":"garbanzos con pisto",
-            "descripcion":"receta de garbanzos con pisto",
+            "descripcion":"https://www.recetario.es/verduras-y-hortalizas-recetas/pisto/g3pf5vvf-1f0e3-591267-cfcd2-v0tgixr0",
             "preparacion":["poner garbanzos en remojo", "preparar pisto", "mezclar todo"],
             "tipo":"Primeros",
             "ingredientes":[
@@ -17,7 +17,7 @@
         },
         {
             "titulo":"lentejas",
-            "descripcion":"receta de lentejas",
+            "descripcion":"https://masquehermanas.blogspot.com/2012/11/lentejas-de-la-abuela-en-thermomix.html",
             "preparacion":["poner lentejas en remojo", "preparar receta"],
             "tipo":"Primeros",
             "ingredientes":[
@@ -30,7 +30,7 @@
         },
         {
             "titulo":"arroz con pisto",
-            "descripcion":"receta de arroz con pisto",
+            "descripcion":"https://www.recetario.es/verduras-y-hortalizas-recetas/pisto/g3pf5vvf-1f0e3-591267-cfcd2-v0tgixr0",
             "preparacion":["preparar arroz", "preparar pisto", "mezclar todo"],
             "tipo":"Primeros",
             "ingredientes":[
@@ -43,7 +43,7 @@
         },
         {
             "titulo":"filete con patatas",
-            "descripcion":"receta de filete con patatas",
+            "descripcion":"sin enlace",
             "preparacion":["freir el filete", "freir las patatas"],
             "tipo":"Segundos",
             "ingredientes":[
@@ -54,7 +54,7 @@
         },
         {
             "titulo":"arroz con leche",
-            "descripcion":"receta de arroz con leche",
+            "descripcion":"sin enlace",
             "preparacion":["hervir la leche", "echar el arroz", "remover durante 20 minutos"],
             "tipo":"Postres",
             "ingredientes":[
