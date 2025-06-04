@@ -1,0 +1,164 @@
+{
+    "numero":12,
+    "actualizado":"04/06/2025",
+    "recetas":[
+        {
+            "titulo":"garbanzos con pisto",
+            "descripcion":"https://www.recetario.es/verduras-y-hortalizas-recetas/pisto/g3pf5vvf-1f0e3-591267-cfcd2-v0tgixr0",
+            "preparacion":["poner garbanzos en remojo", "preparar pisto", "mezclar todo"],
+            "tipo":"Primeros",
+            "ingredientes":[
+                {"nombre":"garbanzos", "cantidad":500,"unidad":"gr"},
+                {"nombre":"calabacin", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"pimiento verde", "cantidad":150,"unidad":"gr"},
+                {"nombre":"cebolla", "cantidad":300,"unidad":"gr"}
+            ],
+            "foto":"garbanzos_con_pisto.jpg"
+        },
+        {
+            "titulo":"lentejas",
+            "descripcion":"https://masquehermanas.blogspot.com/2012/11/lentejas-de-la-abuela-en-thermomix.html",
+            "preparacion":["poner lentejas en remojo", "preparar receta"],
+            "tipo":"Primeros",
+            "ingredientes":[
+                {"nombre":"lentejas", "cantidad":200,"unidad":"gr"},
+                {"nombre":"tomate pera", "cantidad":2,"unidad":"unidad"},
+                {"nombre":"pimiento verde", "cantidad":150,"unidad":"gr"},
+                {"nombre":"cebolla", "cantidad":150,"unidad":"gr"}
+            ],
+            "foto":"lentejas.jpg"
+        },
+        {
+            "titulo":"arroz con pisto",
+            "descripcion":"https://www.recetario.es/verduras-y-hortalizas-recetas/pisto/g3pf5vvf-1f0e3-591267-cfcd2-v0tgixr0",
+            "preparacion":["preparar arroz", "preparar pisto", "mezclar todo"],
+            "tipo":"Primeros",
+            "ingredientes":[
+                {"nombre":"arroz", "cantidad":300,"unidad":"gr"},
+                {"nombre":"calabacin", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"pimiento verde", "cantidad":150,"unidad":"gr"},
+                {"nombre":"cebolla", "cantidad":300,"unidad":"gr"}
+            ],
+            "foto":"arroz_con_pisto.jpg"
+        },
+        {
+            "titulo":"filete con patatas",
+            "descripcion":"sin enlace",
+            "preparacion":["freir el filete", "freir las patatas"],
+            "tipo":"Segundos",
+            "ingredientes":[
+                {"nombre":"filete", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"patatas", "cantidad":1,"unidad":"unidad"}
+            ],
+            "foto":"filete_con_patatas.jpg"
+        },
+        {
+            "titulo":"arroz con leche",
+            "descripcion":"sin enlace",
+            "preparacion":["hervir la leche", "echar el arroz", "remover durante 20 minutos"],
+            "tipo":"Postres",
+            "ingredientes":[
+                {"nombre":"arroz", "cantidad":150,"unidad":"gr"},
+                {"nombre":"leche", "cantidad":250,"unidad":"gr"},
+                {"nombre":"canela en rama", "cantidad":1,"unidad":"unidad"}
+            ],
+            "foto":"arroz_con_leche.jpg"
+        },
+	    {
+            "titulo":"ensalada de lentejas",
+            "descripcion":"sin enlace",
+            "preparacion":["paso1", "paso2", "paso3"],
+            "tipo":"Primeros",
+            "ingredientes":[
+                {"nombre":"tomate", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"lata de atún", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"lentejas cocidas", "cantidad":100,"unidad":"gr"},
+                {"nombre":"aceitunas negras sin hueso", "cantidad":6,"unidad":"unidad"},
+                {"nombre":"queso feta", "cantidad":40,"unidad":"gr"},
+                {"nombre":"lechuga", "cantidad":100,"unidad":"gr"},
+                {"nombre":"cebolla rayada", "cantidad":1,"unidad":"cucharadita"},
+                {"nombre":"ralladura de limón", "cantidad":1,"unidad":"cucharadita"},
+                {"nombre":"ralladura naranja", "cantidad":1,"unidad":"cucharadita"},
+                {"nombre":"zumo de limón", "cantidad":0.25,"unidad":"unidad"},
+                {"nombre":"zumo de naranja", "cantidad":0.25,"unidad":"unidad"},
+                {"nombre":"sal", "cantidad":1,"unidad":"cucharadita"},
+                {"nombre":"aceite de oliva", "cantidad":10,"unidad":"gr"}
+            ],
+            "foto":"ensalada_de_lentejas.jpg"
+        },
+	    {
+            "titulo":"tortilla de jamon york y queso de cabra",
+            "descripcion":"https://www.bonviveur.es/recetas/tortilla-francesa-rellena-de-jamon-y-queso",
+            "preparacion":["batir los huevos", "poner el jamon de york en la sartén y sofreir", "echar el queso troceado en los huevos batidos", "preparar la tortilla"],
+            "tipo":"Segundos",
+            "ingredientes":[
+                {"nombre":"huevos", "cantidad":2,"unidad":"unidad"},
+                {"nombre":"loncha jamon york", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"loncha queso cabra", "cantidad":1,"unidad":"unidad"}
+            ],
+            "foto":"tortilla_jamon_y_queso.jpg"
+        },
+	    {
+            "titulo":"muffin de platano y chocolate",
+            "descripcion":"sin enlace",
+            "preparacion":["preparar el muffin"],
+            "tipo":"Postres",
+            "ingredientes":[
+                {"nombre":"almendra molida", "cantidad":25,"unidad":"gr"},
+                {"nombre":"platano", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"huevo", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"canela", "cantidad":1,"unidad":"cucharadita"},
+                {"nombre":"levadura", "cantidad":1,"unidad":"cucharadita"},
+                {"nombre":"onza chocolate 85%", "cantidad":1,"unidad":"unidad"}
+            ],
+            "foto":"muffin_chocolate.jpg"
+        },
+	    {
+            "titulo":"naranja",
+            "descripcion":"https://es.wikipedia.org/wiki/Naranja_(fruta)",
+            "preparacion":["pelar la naranja"],
+            "tipo":"Postres",
+            "ingredientes":[
+                {"nombre":"naranja", "cantidad":1,"unidad":"unidad"}
+            ],
+            "foto":"naranja.jpg"
+        },
+	    {
+            "titulo":"manzana",
+            "descripcion":"https://es.wikipedia.org/wiki/Manzana",
+            "preparacion":["lavar la manzana"],
+            "tipo":"Postres",
+            "ingredientes":[
+                {"nombre":"manzana", "cantidad":1,"unidad":"unidad"}
+            ],
+            "foto":"manzana.jpg"
+        },
+	    {
+            "titulo":"mandarina",
+            "descripcion":"https://es.wikipedia.org/wiki/Mandarina",
+            "preparacion":["pelar la mandarina"],
+            "tipo":"Postres",
+            "ingredientes":[
+                {"nombre":"mandarina", "cantidad":1,"unidad":"unidad"}
+            ],
+            "foto":"mandarina.jpg"
+        },
+        {
+            "titulo":"crema de calabacín",
+            "descripcion":"https://www.velocidadcuchara.com/crema-de-calabacin",
+            "preparacion":["lava, seca y trocea los calabacines", "trocea la cebolla y añadelo todo junto al aceite", "añade la patata, el agua y la pastilla de caldo", "agrega los quesitos y tritura"],
+            "tipo":"Primeros",
+            "ingredientes":[
+                {"nombre":"calabacin", "cantidad":2,"unidad":"unidad"},
+                {"nombre":"patata", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"pastilla caldo verduras", "cantidad":1,"unidad":"unidad"},
+                {"nombre":"quesitos light", "cantidad":4,"unidad":"unidad"},
+                {"nombre":"aceite de oliva", "cantidad":40,"unidad":"gr"},
+                {"nombre":"agua", "cantidad":500,"unidad":"gr"},
+                {"nombre":"cebolla", "cantidad":0.5,"unidad":"unidad"},
+                {"nombre":"sal", "cantidad":1,"unidad":"cucharadita"}
+            ],
+            "foto":"crema_de_calabacin.jpg"
+        }
+    ]
+}
