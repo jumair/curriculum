@@ -1,221 +1,571 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0c18">
+  <meta name="description" content="Currículum de Juan Manuel Iriondo Ortega: analista de datos e IA aplicada, con más de 25 años de experiencia en gestión empresarial, análisis de datos y mejora continua.">
+  <title>Juan Manuel Iriondo Ortega — Analista de datos e IA</title>
 
-    <!-- Fuentes -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+  <!-- Tipografías del diseño original: Ubuntu Condensed y Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
 
-    <!-- Iconos -->
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> -->
-    <script src="https://kit.fontawesome.com/0f3793b933.js" crossorigin="anonymous"></script>
-
-    <link rel="stylesheet" href="estilos/common.css">
-    <link rel="stylesheet" href="estilos/navyellow.css">
-    <link rel="stylesheet" href="estilos/homepageyellow.css">
-    <link rel="stylesheet" href="estilos/footeryellow.css">
-    <link rel="stylesheet" href="estilos/media-queries.css">
-
-    <title>Homepage</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="navigation-wrapper" id="inicio">
-        <div class="left-column">
-            <div class="contact-wrapper">
-                <div class="icon">
-                    <i class="fa-solid fa-mobile-screen"></i>
-                </div>
-                <div class="phone">
-                    655 715 124
-                </div>
-            </div>
+  <a class="salto" href="#contenido">Saltar al contenido</a>
 
-            <div class="contact-wrapper">
-                <div class="icon">
-                    <i class="fa-solid fa-at"></i>
-                </div>
-                <div class="email">
-                    juanmanuel.iriondo@gmail.com
-                </div>
-            </div>
-        </div>
+  <!-- ===================== CABECERA ===================== -->
+  <header class="cabecera" data-cabecera>
+    <div class="contenedor cabecera__interior">
+      <a class="marca" href="#inicio" aria-label="Juan Manuel Iriondo Ortega, ir al inicio">
+        <span class="marca__cuadrado" aria-hidden="true">JMI</span>
+        <span class="marca__nombre">Juan Manuel Iriondo</span>
+      </a>
 
-        <!-- Link wrapper -->
-        <div class="center-column">
-            <div class="banner-image">
-                <img src="imagenes/fotos/Juanma_Foto_Perfil.jpg" alt="Logo">
-            </div>
-            
-            <div class="links-wrapper">
-                <div class="nav-link">
-                    <a href="#inicio">Inicio</a>
-                </div>
+      <nav class="nav" id="menu" aria-label="Navegación principal" data-menu>
+        <a class="nav__enlace" href="#sobre">Sobre mí</a>
+        <a class="nav__enlace" href="#trayectoria">Trayectoria</a>
+        <a class="nav__enlace" href="#formacion" data-ancla="formacion">Formación</a>
+        <a class="nav__enlace" href="#tecnologias">Tecnologías</a>
+        <a class="nav__enlace" href="#contacto">Contacto</a>
+      </nav>
 
-                <div class="nav-link">
-                    <a href="#acerca">Acerca</a>
-                </div>
-
-                <div class="nav-link">
-                    <a href="#capacidades">Capacidades</a>
-                </div>
-
-                <div class="nav-link">
-                    <a href="#contacto">Contacto</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="right-column">
-            <div class="address-wrapper">
-                <a href="#">
-                    Juan Manuel Iriondo Ortega <br><br>
-                    28026, Madrid, España
-                </a>
-            </div>
-            <div class="contact-icon">
-                <a href="#">
-                    <i class="fa-solid fa-location-dot"></i>
-                </a>
-            </div>
-        </div>
+      <button class="menu-boton" type="button" aria-expanded="false" aria-controls="menu"
+              aria-label="Abrir menú" data-menu-boton>
+        <span></span>
+        <span></span>
+      </button>
     </div>
+  </header>
 
-    <div class="hero-section">
-        <div class="top-heading">
-            <h1>Fullstack Web Developer</h1>
+  <main id="contenido">
+    <!-- ===================== PORTADA ===================== -->
+    <section class="hero" id="inicio">
+      <div class="hero__rejilla" aria-hidden="true"></div>
+      <p class="hero__lateral" aria-hidden="true">Currículum profesional</p>
+
+      <div class="contenedor hero__interior">
+        <div class="hero__contenido">
+          <p class="hero__saludo">Analista de datos e IA aplicada</p>
+
+          <h1 class="hero__nombre">
+            <span class="hero__linea"><span class="hero__linea-texto">Juan Manuel</span></span>
+            <span class="hero__linea hero__linea--destacada"><span class="hero__linea-texto">Iriondo Ortega</span></span>
+          </h1>
+
+          <p class="hero__rol">Desarrollo de soluciones tecnológicas</p>
+
+          <p class="hero__resumen">
+            Especialista en Inteligencia Artificial aplicada a procesos de negocio, con más de 25 años
+            de experiencia en gestión empresarial, análisis de datos y mejora continua. Transformo
+            procesos complejos en soluciones eficientes, escalables y con impacto económico medible.
+          </p>
+
+          <div class="hero__acciones">
+            <a class="boton boton--principal"
+               href="cv/Curriculum_Juan_Manuel_Iriondo_Analista_Datos_23_Junio_2026.pdf"
+               download target="_blank" rel="noopener">Descargar CV (PDF)</a>
+            <a class="boton boton--secundario" href="#trayectoria">Ver trayectoria</a>
+            <a class="boton boton--secundario" href="mailto:juanmanuel.iriondo@gmail.com">Escribir un correo</a>
+          </div>
         </div>
 
-        <div class="bottom-heading">
-            <h3>Programador</h3>
+        <div class="hero__retrato" data-retrato>
+          <figure class="hero__marco">
+            <img src="imagenes/fotos/Juanma_Foto_Perfil.jpg"
+                 alt="Retrato de Juan Manuel Iriondo Ortega"
+                 width="512" height="512">
+          </figure>
         </div>
-    </div>
+      </div>
 
-    <div class="acerca-section" id="acerca">
-        <div class="parrafo">
-            <h2>Historia de Juanma : <a href="cv//Curriculum_Juan_Manuel_Iriondo_MADRID.pdf">descargar Curriculum</a></h2>
-            <h4>Ver más</h4>
-            <p>Soy licenciado en informática por la Universidad del País Vasco.
-                Aunque en los últimos años me he dedicado a labores de calidad ISO 9001 en
-                mi anterior trabajo, mi gran pasión ha sido y sigue siendo la programación; 
-                me apasiona este mundo.
+      <a class="hero__bajar" href="#sobre">
+        <span>Bajar</span>
+        <span class="hero__bajar-linea" aria-hidden="true"></span>
+      </a>
+    </section>
+
+    <!-- ===================== CIFRAS ===================== -->
+    <section class="cifras" aria-label="Cifras destacadas">
+      <div class="contenedor cifras__rejilla" data-grupo>
+        <div class="cifra revelar">
+          <p class="cifra__numero"><span data-contador="25">25</span>+</p>
+          <p class="cifra__texto">años de experiencia en gestión empresarial y análisis de datos</p>
+        </div>
+        <div class="cifra revelar">
+          <p class="cifra__numero"><span data-contador="12">12</span></p>
+          <p class="cifra__texto">años como Responsable de Calidad ISO 9001</p>
+        </div>
+        <div class="cifra revelar">
+          <p class="cifra__numero"><span data-contador="4">4</span></p>
+          <p class="cifra__texto">años orientado a la Inteligencia Artificial</p>
+        </div>
+        <div class="cifra revelar">
+          <p class="cifra__numero"><span data-contador="30">30</span>%</p>
+          <p class="cifra__texto">menos incidencias gracias a la mejora continua</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE MÍ ===================== -->
+    <section class="seccion seccion--clara" id="sobre">
+      <div class="contenedor">
+        <header class="seccion__cabecera">
+          <p class="rotulo revelar">Sobre mí</p>
+          <h2 class="titulo-seccion revelar">Experiencia empresarial,<br>mirada de datos.</h2>
+        </header>
+
+        <div class="sobre__rejilla">
+          <div class="sobre__texto">
+            <p class="entradilla revelar">
+              Especialista en <span class="marcador">Inteligencia Artificial aplicada a procesos de negocio</span>,
+              con más de 25 años de experiencia en gestión empresarial, análisis de datos y mejora continua.
             </p>
-        </div>
 
-        <div class="parrafo">
-            <h2>Nunca es tarde para mejorar</h2>
-            <h4>Ver más</h4>
-            <p>Actualmente estoy ampliando mis conocimientos en programación.
-                Con lo aprendido durante mis anteriores etapas profesionales puedo colaborar
-                en cualquier equipo de trabajo.
-                No sólo quiero contribuir, sino que también quiero seguir aprendiendo y mejorando.
+            <div class="sobre__parrafos revelar">
+              <p>
+                Durante los últimos cuatro años he orientado mi desarrollo profesional hacia la
+                Inteligencia Artificial, integrando una sólida trayectoria en gestión de la calidad
+                con las capacidades que ofrecen las tecnologías de IA para optimizar procesos y
+                apoyar la toma de decisiones.
+              </p>
+              <p>
+                Mi experiencia de 12 años como Responsable de Calidad ISO 9001 me ha permitido
+                desarrollar una visión analítica basada en datos y liderar proyectos de mejora
+                continua con resultados cuantificables: reducción del tiempo de respuesta ante no
+                conformidades de clientes de 3 a 1 días, disminución del 30% de incidencias y
+                contribución a un incremento del 5% en la rentabilidad.
+              </p>
+              <p>
+                Aporto capacidad de liderazgo, adaptación al cambio, resolución de problemas y
+                gestión de equipos multidisciplinares, aplicando la Inteligencia Artificial para
+                generar soluciones de alto impacto con un uso eficiente de los recursos.
+              </p>
+            </div>
+          </div>
+
+          <aside class="enfoque revelar" aria-label="Enfoque de trabajo">
+            <p class="enfoque__titulo">Enfoque de trabajo</p>
+            <ul>
+              <li>IA aplicada a procesos de negocio</li>
+              <li>Análisis de datos para la toma de decisiones</li>
+              <li>Mejora continua con resultados medibles</li>
+              <li>Gestión de equipos multidisciplinares</li>
+            </ul>
+            <p class="enfoque__nota">
+              Licenciado en Informática por la Universidad del País Vasco. Especialidad en
+              aplicaciones informáticas.
             </p>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CITA CON FOTO ===================== -->
+    <section class="cita" aria-label="Enfoque profesional">
+      <div class="cita__fondo" aria-hidden="true"></div>
+      <div class="contenedor">
+        <figure class="cita__contenido revelar">
+          <blockquote>
+            <p>
+              “Transformo procesos complejos en soluciones eficientes, escalables y con
+              <span class="marcador">impacto económico medible</span>.”
+            </p>
+          </blockquote>
+          <figcaption>Juan Manuel Iriondo Ortega</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ===================== TRAYECTORIA ===================== -->
+    <section class="seccion seccion--oscura" id="trayectoria">
+      <div class="contenedor">
+        <header class="seccion__cabecera">
+          <p class="rotulo revelar">Trayectoria</p>
+          <h2 class="titulo-seccion revelar">De los sistemas de gestión<br>a la inteligencia artificial.</h2>
+        </header>
+
+        <div class="linea-tiempo" data-linea-tiempo>
+          <div class="linea-tiempo__riel" aria-hidden="true">
+            <span class="linea-tiempo__progreso" data-progreso-linea></span>
+          </div>
+
+          <ol class="hitos">
+            <!-- PinkStone -->
+            <li class="hito revelar">
+              <p class="hito__fecha">Oct. 2024<br>Nov. 2024</p>
+              <article class="hito__cuerpo">
+                <p class="hito__tipo">Desarrollo web</p>
+                <h3>Programador</h3>
+                <p class="hito__empresa">PinkStone Advertisement Group<span>Madrid</span></p>
+
+                <ul class="lista">
+                  <li>Gestión de nuevas funcionalidades para sitios web.</li>
+                  <li>
+                    Añadí funcionalidades que realizaban filtrados de búsqueda en múltiples tablas
+                    en formato CSV (Excel) y mostraban los resultados en una página separada desde
+                    la que se enviaba un email a los clientes con la oferta realizada, mejorando la
+                    organización de los datos.
+                  </li>
+                  <li>
+                    Adquirí competencias en desarrollo web básico en PHP y en la integración de
+                    datos en WordPress.
+                  </li>
+                </ul>
+              </article>
+            </li>
+
+            <!-- Kempchen -->
+            <li class="hito revelar">
+              <p class="hito__fecha">Ene. 1997<br>Mar. 2022</p>
+              <article class="hito__cuerpo">
+                <p class="hito__tipo">Calidad, informática y desarrollo</p>
+                <h3>Responsable de Informática y Calidad</h3>
+                <p class="hito__empresa">Grupo Industrial Kempchen &amp; Comdi ex, S.A.<span>Irún, España</span></p>
+
+                <div class="metricas">
+                  <p><strong>3 → 1</strong><span>días de respuesta ante no conformidades</span></p>
+                  <p><strong>−30%</strong><span>de incidencias</span></p>
+                  <p><strong>+5%</strong><span>de rentabilidad</span></p>
+                  <p><strong>4 meses</strong><span>de un recurso externo ahorrados</span></p>
+                </div>
+
+                <div class="subrol">
+                  <div class="subrol__cabecera">
+                    <h4>Responsable del Sistema de Gestión de Calidad ISO 9001</h4>
+                    <p class="subrol__fecha">2012 — marzo 2022</p>
+                  </div>
+                  <ul class="lista">
+                    <li>
+                      Dirección, mantenimiento y mejora del Sistema de Gestión de Calidad ISO 9001,
+                      garantizando la superación de las auditorías anuales y la continuidad de la
+                      certificación.
+                    </li>
+                    <li>
+                      Aseguré el cumplimiento de los requisitos de calidad que permitieron a la
+                      empresa acceder y mantener contratos con clientes estratégicos del sector
+                      Oil &amp; Gas.
+                    </li>
+                    <li>
+                      Reestructuración integral de la documentación del sistema: procedimientos,
+                      instrucciones de trabajo, parámetros de maquinaria y especificaciones técnicas.
+                    </li>
+                    <li>
+                      Implantación de un modelo de seguimiento de mejora continua mediante reuniones
+                      trimestrales por departamentos, mejorando la coordinación interna y la
+                      resolución de incidencias.
+                    </li>
+                    <li>
+                      Liderazgo de proyectos de mejora que redujeron el tiempo de respuesta ante no
+                      conformidades de clientes de 3 a 1 día y disminuyeron las incidencias en un
+                      30%, contribuyendo a incrementar la rentabilidad y la reputación de la empresa.
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="subrol">
+                  <div class="subrol__cabecera">
+                    <h4>Responsable de Informática</h4>
+                    <p class="subrol__fecha">2009 — marzo 2022</p>
+                  </div>
+                  <ul class="lista">
+                    <li>
+                      Dirección de la implantación y parametrización del ERP RPS (Ibermática),
+                      coordinando la migración completa de datos desde el sistema anterior y
+                      optimizando los procesos de gestión.
+                    </li>
+                    <li>
+                      Configuración funcional del ERP en colaboración con el proveedor, generando un
+                      ahorro equivalente a cuatro meses de dedicación de un recurso externo.
+                    </li>
+                    <li>
+                      Digitalicé y automaticé los procesos comerciales y administrativos, mejorando
+                      la eficiencia operativa y el flujo de información entre departamentos.
+                    </li>
+                    <li>
+                      Desarrollé cuadros de mando, informes y análisis de datos para Gerencia,
+                      facilitando la toma de decisiones basada en indicadores de negocio.
+                    </li>
+                    <li>Soporte tecnológico y mejora continua de los sistemas de información de la empresa.</li>
+                  </ul>
+                </div>
+
+                <div class="subrol">
+                  <div class="subrol__cabecera">
+                    <h4>Programador de Aplicaciones de Gestión</h4>
+                    <p class="subrol__fecha">1997 — 2009</p>
+                  </div>
+                  <ul class="lista">
+                    <li>
+                      Diseñé y desarrollé el sistema de gestión comercial de la empresa utilizando
+                      Visual Basic 6.0, Microsoft Access y SQL Server.
+                    </li>
+                    <li>
+                      Desarrollé aplicaciones adaptadas a las necesidades del negocio, automatizando
+                      procesos administrativos y comerciales.
+                    </li>
+                    <li>
+                      Mantenimiento evolutivo del software, integración de nuevas funcionalidades y
+                      soporte a los usuarios internos.
+                    </li>
+                    <li>
+                      Colaboración directa con las áreas de dirección y administración para adaptar
+                      las herramientas informáticas a la evolución de la empresa.
+                    </li>
+                  </ul>
+                </div>
+              </article>
+            </li>
+
+            <!-- Ibermática -->
+            <li class="hito revelar">
+              <p class="hito__fecha">Jun. 1996<br>Nov. 1996</p>
+              <article class="hito__cuerpo">
+                <p class="hito__tipo">Sistemas</p>
+                <h3>Programador</h3>
+                <p class="hito__empresa">Ibermática<span>San Sebastián, España</span></p>
+
+                <ul class="lista">
+                  <li>
+                    Colaboré en el Proyecto siglo XXI (efecto del año 2000), revisando y actualizando
+                    programas hechos en Cobol.
+                  </li>
+                </ul>
+              </article>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== FORMACIÓN ===================== -->
+    <section class="seccion seccion--clara" id="formacion">
+      <div class="contenedor">
+        <header class="seccion__cabecera">
+          <p class="rotulo revelar">Formación</p>
+          <h2 class="titulo-seccion revelar">Base técnica,<br>aprendizaje continuo.</h2>
+        </header>
+
+        <div class="titulacion revelar">
+          <p class="titulacion__fecha">1987 — 1993</p>
+          <div>
+            <p class="etiqueta-mini">Titulación universitaria</p>
+            <h3>Licenciado en Informática</h3>
+            <p class="titulacion__centro">Universidad del País Vasco, San Sebastián, España</p>
+            <p class="titulacion__detalle">Especialidad en aplicaciones informáticas.</p>
+          </div>
         </div>
 
-        <div class="parrafo">
-            <h2>Alguna cosilla más ...</h2>
-            <h4>Ver más</h4>
-            <p>Tengo conocimientos de SQL y de bases de datos relacionales como Mysql o Microsoft SQL Server.
-                También programé en Visual Basic y PHP.</p>
+        <h3 class="subtitulo revelar">Otras formaciones</h3>
+
+        <ul class="cursos">
+          <li class="curso revelar">
+            <p class="curso__fecha">Nov. 2025 —<br>Ago. 2026</p>
+            <div class="curso__info">
+              <h4>Programa Educativo de Inteligencia Artificial</h4>
+              <p class="curso__centro">Factoría F5, Madrid <span class="curso__horas">1250 horas</span></p>
+              <p>
+                Desarrollo de productos mínimos viables (MVP) en Machine Learning, análisis de
+                datos, NLP y LLMs en equipo. Uso de Git, GitHub, Python, Pandas, NumPy, Matplotlib,
+                Seaborn, Scikit-Learn, Power BI, FastAPI y Supabase.
+              </p>
+            </div>
+          </li>
+
+          <li class="curso revelar">
+            <p class="curso__fecha">Dic. 2024 —<br>Ene. 2025</p>
+            <div class="curso__info">
+              <h4>JavaScript avanzado e Ionic</h4>
+              <p class="curso__centro">
+                Centro Formación Digital de San Blas Canillejas, Madrid
+                <span class="curso__horas">160 horas</span>
+              </p>
+              <p>
+                Desarrollo de aplicaciones híbridas multiplataforma que se puedan ejecutar en
+                Android, iOS y Windows Phone sin tener que desarrollarlas en el lenguaje nativo de
+                cada plataforma.
+              </p>
+            </div>
+          </li>
+
+          <li class="curso revelar">
+            <p class="curso__fecha">Ene. 2024 —<br>May. 2024</p>
+            <div class="curso__info">
+              <h4>Desarrollo de aplicaciones con tecnologías web</h4>
+              <p class="curso__centro">Core Networks, Madrid <span class="curso__horas">590 horas</span></p>
+              <p>
+                Tecnologías de la parte cliente (frontend): HTML, CSS y JavaScript. Tecnologías de
+                la parte servidor (backend): Java. Bases de datos SQL con MySQL. Trabajo básico con
+                Git para trabajar en equipo.
+              </p>
+            </div>
+          </li>
+
+          <li class="curso revelar">
+            <p class="curso__fecha">Ene. 2023 —<br>Nov. 2023</p>
+            <div class="curso__info">
+              <h4>Full Stack Development Program</h4>
+              <p class="curso__centro">Bottega University <span class="curso__horas">600 horas</span></p>
+              <p>
+                Conocimientos de CSS, Python, JavaScript moderno, React y SQL. Práctica final: un
+                gestor de fotos familiares realizado con HTML, CSS, JavaScript y React para el
+                frontend, y con Python, MySQL y la API de Cloudinary para el backend.
+              </p>
+            </div>
+          </li>
+
+          <li class="curso revelar">
+            <p class="curso__fecha">Oct. 2022 —<br>Dic. 2022</p>
+            <div class="curso__info">
+              <h4>Fundamentos HTML5, CSS3 y JavaScript</h4>
+              <p class="curso__centro">Bottega University <span class="curso__horas">60 horas</span></p>
+              <p>Conocimientos de HTML, CSS y JavaScript.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== TECNOLOGÍAS ===================== -->
+    <section class="seccion seccion--oscura" id="tecnologias">
+      <div class="contenedor">
+        <header class="seccion__cabecera seccion__cabecera--fila">
+          <div>
+            <p class="rotulo revelar">Tecnologías</p>
+            <h2 class="titulo-seccion revelar">Herramientas<br>de trabajo.</h2>
+          </div>
+          <p class="tecnologias__intro revelar">
+            Soy especialista en Python, Pandas, Machine Learning, Análisis de datos, FastAPI,
+            GitHub, Power BI, HTML, CSS y JavaScript.
+          </p>
+        </header>
+
+        <div class="tecnologias__tabla">
+          <div class="grupo-tec revelar">
+            <p class="grupo-tec__titulo">Datos e IA</p>
+            <ul>
+              <li>Python</li>
+              <li>Pandas</li>
+              <li>Machine Learning</li>
+              <li>Scikit-Learn</li>
+              <li>NumPy</li>
+              <li>Matplotlib</li>
+              <li>Seaborn</li>
+              <li>NLP</li>
+              <li>LLMs</li>
+              <li>Power BI</li>
+            </ul>
+          </div>
+
+          <div class="grupo-tec revelar">
+            <p class="grupo-tec__titulo">Backend y datos</p>
+            <ul>
+              <li>FastAPI</li>
+              <li>Java</li>
+              <li>SQL</li>
+              <li>MySQL</li>
+              <li>SQL Server</li>
+              <li>Microsoft Access</li>
+              <li>Supabase</li>
+              <li>PHP</li>
+            </ul>
+          </div>
+
+          <div class="grupo-tec revelar">
+            <p class="grupo-tec__titulo">Frontend</p>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Ionic</li>
+            </ul>
+          </div>
+
+          <div class="grupo-tec revelar">
+            <p class="grupo-tec__titulo">Herramientas y sistemas</p>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>WordPress</li>
+              <li>Visual Basic 6.0</li>
+              <li>Cobol</li>
+            </ul>
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACTO ===================== -->
+    <section class="seccion seccion--clara contacto" id="contacto">
+      <div class="contenedor">
+        <p class="rotulo revelar">Contacto</p>
+        <h2 class="titulo-seccion revelar">Hablemos.</h2>
+
+        <div class="contacto__rejilla">
+          <div class="revelar">
+            <a class="contacto__email" href="mailto:juanmanuel.iriondo@gmail.com">juanmanuel.iriondo@gmail.com</a>
+            <p class="contacto__nota">Analista de datos e IA aplicada. Madrid, 28026.</p>
+          </div>
+
+          <dl class="contacto__datos revelar">
+            <div>
+              <dt>Teléfono</dt>
+              <dd><a href="tel:+34655715124">655 715 124</a></dd>
+            </div>
+            <div>
+              <dt>Ubicación</dt>
+              <dd>28026, Madrid, España</dd>
+            </div>
+            <div>
+              <dt>LinkedIn</dt>
+              <dd>
+                <a href="https://www.linkedin.com/in/juanmanueliriondoortega"
+                   target="_blank" rel="noopener">Ver perfil de LinkedIn</a>
+              </dd>
+            </div>
+            <div>
+              <dt>GitHub</dt>
+              <dd>
+                <a href="https://github.com/jumair" target="_blank" rel="noopener">github.com/jumair</a>
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== PIE ===================== -->
+  <footer class="pie">
+    <div class="contenedor pie__interior">
+      <a class="marca" href="#inicio" aria-label="Volver al inicio">
+        <span class="marca__cuadrado" aria-hidden="true">JMI</span>
+        <span class="pie__marca-texto">Juan Manuel Iriondo Ortega<br><span>Madrid, España</span></span>
+      </a>
+
+      <nav class="pie__nav" aria-label="Navegación del pie">
+        <a href="#sobre">Sobre mí</a>
+        <a href="#trayectoria">Trayectoria</a>
+        <a href="#formacion">Formación</a>
+        <a href="#tecnologias">Tecnologías</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
     </div>
 
-    <div class="features-section" id="capacidades">
-        <div class="columns-wrapper">
-            <div class="column">
-                <i class="fa-brands fa-html5"></i>
-                <!-- <i class="fa-brands fa-css3-alt"></i> -->
-                <p>HTML y CSS</p>
-                <p>
-                    Desarrollo en CSS 3 / HTML5.
-                </p>
-            </div>
-
-            <div class="column">
-                <i class="fa-brands fa-square-js"></i>
-                <p>Javascript</p>
-                <p>
-                    Desarrollo en Javascript.
-                </p>
-            </div>
-
-            <div class="column">
-                <i class="fa-brands fa-python"></i>
-                <p>Python</p>
-                <p>
-                    Desarrollo en Python.
-                </p>
-            </div>
-        </div>
+    <div class="contenedor pie__legal">
+      <p>© <span data-anio>2026</span> Juan Manuel Iriondo Ortega</p>
+      <p>Actualizado el <span data-fecha>—</span></p>
     </div>
+  </footer>
 
-    <!--
-    <div>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.2335471542124!2d-3.702133484645274!3d40.381516179369164!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4226526423d6cb%3A0xaf64dcb106d5cd62!2sC.%20Cristo%20de%20Lepanto%2C%202%2C%2028026%20Madrid!5e0!3m2!1ses!2ses!4v1668445604336!5m2!1ses!2ses" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
-    -->
+  <button class="arriba" type="button" data-arriba aria-label="Volver arriba">
+    <span aria-hidden="true">↑</span>
+  </button>
 
-    <div class="footer" id="contacto">
-
-        <div class="footer-up">
-
-            <div class="footer-up-left">
-                <div class="social-media-icon-wrapper">
-                    <a href="https://github.com/jumair">
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                    <p>https://github.com/jumair</p>
-                </div>
-                <div class="social-media-icon-wrapper">
-                    <a href="https://www.linkedin.com/in/juan-manuel-iriondo-ortega-45a30128">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                    <p>https://www.linkedin.com/in/juan-manuel-iriondo-ortega-45a30128</p>
-                </div>
-                <div class="social-media-icon-wrapper">
-                    <a href="mailto:juanmanuel.iriondo@gmail.com">
-                        <i class="fa-solid fa-at"></i>
-                    </a>
-                    <p>juanmanuel.iriondo@gmail.com</p>
-                </div>
-            </div>
-
-            <div class="footer-up-right">
-                <div class="footer-name">
-                    <h1 class="firstname1">J</h1>
-                    <h1 class="firstname2">M</h1>
-                    <h1 class="lastname">I</h1>
-                </div>
-
-                <div class="links-wrapper">
-                    <div class="nav-link">
-                        <a href="#inicio">Inicio</a>
-                    </div>
-
-                    <div class="nav-link">
-                        <a href="#acerca">Acerca</a>
-                    </div>
-
-                    <div class="nav-link">
-                        <a href="#capacidades">Capacidades</a>
-                    </div>
-
-                    <div class="nav-link">
-                        <a href="#contacto">Contacto</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="copyright-wrapper">
-            &copy; 2022 Juan Manuel Iriondo &#124; All rights reserved
-        </div>
-
-    </div>
-
+  <script src="app.js"></script>
 </body>
 </html>
